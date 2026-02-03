@@ -1,0 +1,51 @@
+{% extends "base.html" %} {% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">Your Cart</h2>
+
+  {% if products %}
+  <table class="table table-bordered align-middle">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        <th>Action</th>
+        <!-- New column for Remove button -->
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in products %}
+      <tr>
+        <td>
+          <img src="{{ item.product.img_url }}" width="60" class="me-2" />
+          {{ item.product.name }}
+        </td>
+        <td>₪{{ "%.2f"|format(item.product.price_new) }}</td>
+        <td>{{ item.quantity }}</td>
+        <td>₪{{ "%.2f"|format(item.subtotal) }}</td>
+        <td>
+          <form
+            method="POST"
+            action="{{ url_for('remove_from_cart', product_id=item.product.id) }}"
+          >
+            <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="text-end">
+    <h4>Total: ₪{{ "%.2f"|format(total) }}</h4>
+    <a href="{{ url_for('checkout') }}" class="btn btn-primary mt-3">
+      Proceed to Checkout
+    </a>
+  </div>
+
+  {% else %}
+  <p class="text-center">Your cart is empty.</p>
+  {% endif %}
+</div>
+{% endblock %}

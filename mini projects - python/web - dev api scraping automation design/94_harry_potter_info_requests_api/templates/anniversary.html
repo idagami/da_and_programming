@@ -1,0 +1,19 @@
+{% extends "index.html" %} {% block content %}
+<div class="projects p-3">
+  <h2>Today’s anniversaries</h2>
+
+  {% if matches %}
+  <ul>
+    {% for title in matches %}
+    <li>{{ title }}</li>
+    {% endfor %}
+  </ul>
+
+  <form action="/anniversary/send" method="post">
+    <button type="submit">Send emails</button>
+  </form>
+  {% else %}
+  <p>No releases today.</p>
+  {% endif %}
+</div>
+{% endblock %}

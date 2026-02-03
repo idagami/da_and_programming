@@ -1,0 +1,38 @@
+<a href="{{ url_for('graphs') }}" class="btn btn-primary">View Graph</a>
+<a href="{{ url_for('table') }}" class="btn btn-primary">View Table</a>
+<br />
+
+<form method="POST">
+  {{ form.hidden_tag() }} {{ form.date.label }} {{ form.date() }} {{
+  form.shop.label }} {{ form.shop() }}
+
+  <table class="table">
+    <tr>
+      <th>Item</th>
+      <th>Description</th>
+      <th>Category</th>
+      <th>Weight, g</th>
+      <th>Pieces / units</th>
+      <th>Paid</th>
+    </tr>
+
+    {% for row in form.products %}
+    <tr>
+      <td>{{ row.item() }}</td>
+      <td>{{ row.descr() }}</td>
+      <td>{{ row.category() }}</td>
+      <td>{{ row.weight() }}</td>
+      <td>{{ row.units() }}</td>
+      <td>
+        {{ row.cost() }} {% for err in row.cost.errors %}
+        <div class="text-danger small">{{ err }}</div>
+        {% endfor %}
+      </td>
+    </tr>
+    {% endfor %} {% if form.errors %}
+    <pre>{{ form.errors }}</pre>
+    {% endif %}
+  </table>
+
+  {{ form.submit() }}
+</form>

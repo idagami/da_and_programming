@@ -1,0 +1,63 @@
+{% extends "base.html" %} {% from "bootstrap5/form.html" import render_form %}
+{% block content %}
+
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+    <div
+      class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+    >
+      {% for product in all_products %}
+      <div class="col mb-5">
+        <div class="card h-100">
+          {% if product.price_old > product.price_new %}
+          <div
+            class="badge bg-dark text-white position-absolute"
+            style="top: 0.5rem; right: 0.5rem"
+          >
+            Sale
+          </div>
+          {% endif %}
+
+          <img
+            class="card-img-top"
+            src="{{ product.img_url }}"
+            alt="{{ product.name }}"
+          />
+
+          <div class="card-body p-4">
+            <div class="text-center">
+              <h5 class="fw-bolder">{{ product.name }}</h5>
+
+              {% if product.price_old > product.price_new %}
+              <span class="text-muted text-decoration-line-through">
+                ₪{{ "%.2f"|format(product.price_old) }}
+              </span>
+              {% endif %} ₪{{ "%.2f"|format(product.price_new) }}
+              <p class="mt-2 text-muted">Stock: {{ product.stock }}</p>
+            </div>
+          </div>
+
+          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            {% if product.stock > 0 %}
+            <form
+              method="POST"
+              action="{{ url_for('adding_to_cart', product_id=product.id) }}"
+            >
+              <input type="hidden" name="quantity" value="1" />
+              <button class="btn btn-outline-dark mt-auto w-100">
+                Add to cart
+              </button>
+            </form>
+            {% else %}
+            <button class="btn btn-secondary w-100" disabled>
+              Out of stock
+            </button>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

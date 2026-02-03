@@ -1,0 +1,31 @@
+{% extends "index.html" %} {% block content %}
+<div class="projects p-3">
+  <h3>HP titles</h3>
+  <ul>
+    <li class="project-area">
+      Books
+      <ul>
+        {% for book in books %}
+        <li>
+          <a class="title-link" href="{{ book.cover }}" target="_blank"
+            >{{ book.title }}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li class="project-area">
+      Movies
+      <ul>
+        {% for movie in movies %}
+        <li>
+          <a class="title-link" href="{{ movie.cover }}" target="_blank"
+            >{{ movie.title }}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</div>
+{% endblock %}

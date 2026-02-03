@@ -1,0 +1,20 @@
+<a href="{{ url_for('add_new') }}" class="btn btn-primary">Home</a>
+<a href="{{ url_for('table') }}" class="btn btn-primary">Table</a>
+<h2>Grocery Costs Over Time</h2>
+
+<form method="POST">
+  {{ form.hidden_tag() }} {{ form.filter_type.label }} {{
+  form.filter_type(onchange="this.form.submit()") }} {{ form.filter_value.label
+  }} {{ form.filter_value() }} {{ form.submit() }}
+  <p>
+    (click button to populate the filter values and then click it again to get
+    up-to-date graph)
+  </p>
+</form>
+
+{% if graph_file %}
+<img
+  src="{{ url_for('static', filename='graphs/' + graph_file) }}"
+  alt="Grocery Graph"
+/>
+{% endif %}

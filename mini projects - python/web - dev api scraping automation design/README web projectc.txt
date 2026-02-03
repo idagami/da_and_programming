@@ -1,0 +1,1 @@
+open each project separately in VSC, otherwise wont work due to venvs

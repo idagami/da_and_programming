@@ -1,0 +1,223 @@
+{
+  "data": [
+    {
+      "id": "3e161309-4c3c-4094-9db9-a8dfe911de14",
+      "type": "book",
+      "attributes": {
+        "slug": "harry-potter-and-the-philosopher-s-stone",
+        "author": "J. K. Rowling",
+        "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-1.jpg",
+        "dedication": "For Jessica, who loves stories, for Anne, who loved them too, and for Di, who heard this one first",
+        "pages": 223,
+        "release_date": "1997-06-26",
+        "summary": "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Philosopher's_Stone"
+      },
+      "relationships": {
+        "chapters": {
+          "data": [
+            {
+              "id": "ad09d2a7-e76f-4aa0-b82c-424d59175133",
+              "type": "chapter"
+            },
+            {
+              "id": "3d29e1d7-77c4-4ad1-85a2-a3d0ace5566c",
+              "type": "chapter"
+            },
+            {
+              "id": "98d8e713-9cf1-46f5-9747-abb17e756073",
+              "type": "chapter"
+            },
+            {
+              "id": "a9fe85c9-2e15-4990-ba2b-4222bc7a7574",
+              "type": "chapter"
+            },
+            {
+              "id": "2ea979f9-08a5-47b4-9aae-6ec63bceed95",
+              "type": "chapter"
+            },
+            {
+              "id": "c578aee4-7d41-4031-98bb-0a68db13adbc",
+              "type": "chapter"
+            },
+            {
+              "id": "4957f6e0-3902-4635-a00c-3105432ae774",
+              "type": "chapter"
+            },
+            {
+              "id": "36276ab3-6ee5-48c0-8709-1c3d761fca38",
+              "type": "chapter"
+            },
+            {
+              "id": "bf16809f-9344-400e-8490-7cb1e35a8a7b",
+              "type": "chapter"
+            },
+            {
+              "id": "959a3537-bf68-4466-8e04-135d8c4f6ac2",
+              "type": "chapter"
+            },
+            {
+              "id": "89538b96-a290-47e2-a74d-db04a5d79a5b",
+              "type": "chapter"
+            },
+            {
+              "id": "7807740b-63c2-455a-9c47-3597f0764d94",
+              "type": "chapter"
+            },
+            {
+              "id": "c032b970-d5d4-45a5-b841-525c3e27f909",
+              "type": "chapter"
+            },
+            {
+              "id": "6894daa8-2f38-4ff3-bafa-e3157263eadc",
+              "type": "chapter"
+            },
+            {
+              "id": "17a02196-7cee-4b96-9958-df078c6d7f1b",
+              "type": "chapter"
+            },
+            {
+              "id": "9dad077a-56d2-4edf-98e5-aa30f5fa1d35",
+              "type": "chapter"
+            },
+            {
+              "id": "b8dc3e82-d0fc-4327-bec4-37c025bca580",
+              "type": "chapter"
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "/v1/books/3e161309-4c3c-4094-9db9-a8dfe911de14"
+      }
+    },
+    {
+      "id": "b0f44ea7-0c81-45b2-aa3b-e01c27afeb5f",
+      "type": "book",
+      "attributes": {
+        "slug": "harry-potter-and-the-chamber-of-secrets",
+        "author": "J. K. Rowling",
+        "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-2.jpg",
+        "dedication": "For Séan P. F. Harris, getaway driver and foul-weather friend",
+        "pages": 251,
+        "release_date": "1998-07-02",
+        "summary": "Harry Potter's summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft And Wizardry for his second year, Harry hears strange whispers echo through empty corridors – and then the attacks start. Students are found as though turned to stone... Dobby's sinister predictions seem to be coming true.",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets"
+      },
+      "relationships": {
+        "chapters": {
+          "data": [
+            {
+              "id": "79bdfb43-cce7-41df-bf89-d3e0c8d16f71",
+              "type": "chapter"
+            },
+            {
+              "id": "060d715b-32da-4a87-a6fd-9cfe2ea0a841",
+              "type": "chapter"
+            },
+            {
+              "id": "ea96dfc3-b241-487c-9654-87cc240f099a",
+              "type": "chapter"
+            },
+            {
+              "id": "6f741f6f-2ab2-4ba5-9de4-d3d4b774c340",
+              "type": "chapter"
+            },
+            {
+              "id": "4df302d5-e7b6-4b74-8dc9-31ed6b7f9873",
+              "type": "chapter"
+            },
+            {
+              "id": "ebafa783-8cc6-4c2c-8ddc-23c4bf158999",
+              "type": "chapter"
+            },
+            {
+              "id": "3baaae6d-24e9-4c33-8105-e8dcb283eb77",
+              "type": "chapter"
+            },
+            {
+              "id": "9ced52ff-5cac-4eeb-9d0c-a59a4905a437",
+              "type": "chapter"
+            },
+            {
+              "id": "94bbe9ec-5f28-4e56-8796-bd7745a5a9b7",
+              "type": "chapter"
+            },
+            {
+              "id": "8baf63a8-a866-4725-a023-eff77299e258",
+              "type": "chapter"
+            },
+            {
+              "id": "cce75136-67a8-4b5a-9c69-f73379a551ba",
+              "type": "chapter"
+            },
+            {
+              "id": "215b08b5-31ae-4ff8-b8d0-3f13ceff5326",
+              "type": "chapter"
+            },
+            {
+              "id": "07ab054b-5cec-4169-8701-09472b0e1c00",
+              "type": "chapter"
+            },
+            {
+              "id": "1a68741f-30ec-494c-b0f7-d8c11ec27a8f",
+              "type": "chapter"
+            },
+            {
+              "id": "56268015-88fc-4ebe-b2a1-4a95f8e603be",
+              "type": "chapter"
+            },
+            {
+              "id": "741764a0-4e80-4802-b993-d58dacb9a51d",
+              "type": "chapter"
+            },
+            {
+              "id": "461a7795-8bd6-4479-910a-3e091429dae8",
+              "type": "chapter"
+            },
+            {
+              "id": "6b36ebde-3f63-45c8-8715-fe472f87a15b",
+              "type": "chapter"
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "/v1/books/b0f44ea7-0c81-45b2-aa3b-e01c27afeb5f"
+      }
+    },
+    {
+      "id": "ceabeb92-9eb2-455b-898e-a22973a6a1e0",
+      "type": "book",
+      "attributes": {
+        "slug": "harry-potter-and-the-prisoner-of-azkaban",
+        "author": "J. K. Rowling",
+        "cover": "https://www.wizardingworld.com/images/products/books/UK/rectangle-3.jpg",
+        "dedication": "To Jill Prewett and Aine Kiely, the Godmothers of Swing",
+        "pages": 317,
+        "release_date": "1999-07-08",
+        "summary": "When the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run – and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss.",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "wiki": "https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Prisoner_of_Azkaban"
+      },
+      "relationships": {
+        "chapters": {
+          "data": [
+            {
+              "id": "542fdf94-d96c-41e7-b0ff-c7bfce446a50",
+              "type": "chapter"
+            },
+            {
+              "id": "e441988f-0d9d-48cc-b968-fc6c3748813f",
+              "type": "chapter"
+            },
+            {
+              "id": "e20ea0fc-35c8-433a-818e-39d81a298a01",
+              "type": "chapter"
+            }]
+    }}}
+]
+}
+

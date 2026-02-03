@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "header.html" %}
+  </head>
+
+  <body>
+    <header class="header-anchors">
+      <a href="/">Home</a>
+      <a href="/spell">Random spell</a>
+      <a href="/anniversary">Check anniversaries</a>
+    </header>
+
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Left card (intro card stays HERE forever) -->
+        <div class="col-md-4">
+          <div class="intro-card p-3">
+            <h2>World of HP!</h2>
+            <p>
+              Release date & poster on all books and movies. Click 'Titles' and
+              then select book / movie. The page also sends mail on the
+              anniversary of each release! Dive in!
+            </p>
+
+            <button
+              class="projects-button"
+              onclick="window.location.href='/titles'"
+            >
+              Titles
+            </button>
+
+            <br /><br />
+
+            <img
+              class="main-img"
+              src="/static/images/hogwarts.jpg"
+              alt="Hogwarts"
+            />
+          </div>
+        </div>
+
+        <!-- Right card: -->
+        <div class="col-md-8">
+          {% block content %}
+          <!-- default: home page, not default: any of templates right card -->
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <footer>By: Irena Dav © 2025</footer>
+  </body>
+</html>

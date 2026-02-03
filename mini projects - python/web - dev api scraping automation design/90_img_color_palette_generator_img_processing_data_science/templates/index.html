@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Color palettes</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../static/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="/">Home</a>
+      </div>
+    </nav>
+    <section class="py-2">
+      <div class="container px-4 px-lg-5 my-2">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+          <div class="col-md-6">
+            {% if img %}
+            <img
+              class="card-img-top mb-5 mb-md-0"
+              src="{{ url_for('send_uploaded_img', filename=img) }}"
+              alt="..."
+              width="600"
+              height="700"
+            />
+            {% else %}
+            <img
+              class="card-img-top mb-5 mb-md-0"
+              src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg"
+              alt="..."
+            />
+            {% endif %}
+          </div>
+          <div class="col-md-6">
+            <h1 class="display-5 fw-bolder">Image colors palette generator</h1>
+            <br />
+            <form action="/run" method="POST" enctype="multipart/form-data">
+              <!-- File upload -->
+              <div class="mb-3">
+                <label for="myFileUpload" class="form-label"
+                  >Upload image:</label
+                >
+                <input
+                  type="file"
+                  id="myFileUpload"
+                  name="uplImage"
+                  class="form-control"
+                  required
+                />
+              </div>
+
+              <!-- Number of colors next to label -->
+              <div class="mb-3 d-flex align-items-center">
+                <label for="inputQuantity" class="me-2 mb-0"
+                  >Number of colors:</label
+                >
+                <input
+                  id="inputQuantity"
+                  name="numColors"
+                  type="number"
+                  value="10"
+                  class="form-control"
+                  style="max-width: 4rem"
+                  required
+                />
+              </div>
+
+              <!-- Run button -->
+              <button
+                class="btn btn-outline-dark flex-shrink-0"
+                type="submit"
+                style="
+                  background-color: #1b3c1d;
+                  color: white;
+                  border: none;
+                  padding: 10px 20px;
+                "
+              >
+                Run
+              </button>
+            </form>
+            {% if c_palette %}
+            <p class="lead mt-4">Color palette:</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px">
+              {% for color in c_palette %}
+              <div style="display: flex; align-items: center; gap: 5px">
+                <div
+                  style="width:50px; height:50px; background-color: {{ color.hex }}"
+                ></div>
+                <span
+                  >{{ color.rgb }} → {{ color.hex }} → Used in
+                  {{color.proportion}}%</span
+                >
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">By Irena D 2025</p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

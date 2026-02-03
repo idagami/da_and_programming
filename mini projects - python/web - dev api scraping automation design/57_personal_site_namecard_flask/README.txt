@@ -1,0 +1,1 @@
+serves as a digital portfolio and contact card, displaying personal information, social links, and CV download.

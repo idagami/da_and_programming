@@ -1,0 +1,2 @@
+TinCat is a responsive landing page for a fictional cat dating app, designed with HTML5, CSS, and Bootstrap 5. 
+The site promotes the app, showcases its features, pricing plans, and provides a professional layout for user engagement.

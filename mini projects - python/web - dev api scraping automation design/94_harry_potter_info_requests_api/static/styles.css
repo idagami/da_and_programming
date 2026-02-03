@@ -1,0 +1,163 @@
+@import url(font-awesome.min.css);
+
+h2 {color: rgb(7, 48, 84)}
+h3 {color: rgb(7, 48, 84)}
+
+.intro-card {
+    background-color: rgba(189,
+        181, 213, 0.65);
+    padding-bottom: 0;
+    margin-bottom: -15px;
+}
+
+.projects {
+        background-color: rgba(189,
+                181,
+                213, 0.65);
+    }
+
+body {background-image: url("../static/images/bg1.jpg")}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.icon {
+    text-decoration: none;
+    position: relative;
+    border-bottom: none;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon>.label {
+    display: none;
+}
+
+.book-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.social-icons a {
+    font-size: 2.5rem;
+    color: #0a5a6c;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0657a1;
+}
+
+.social-icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1;
+}
+
+button {
+    color: #0657a1;
+    border-radius: 8px;
+    font-size: 30px
+}
+
+button:hover {
+    background-color: #0657a1;
+    color: darkseagreen
+}
+
+.projects-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #0a5a6c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header-anchors {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.header-anchors a{
+    color: darkseagreen;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project-area {
+    font-weight: bold;
+}
+
+footer {
+    color: rgba(143, 188, 143, 0.4);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.tools-icons {
+    font-size: 1.5rem;
+    color: #0a5a6c;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.mini-icons {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tools-row {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.tools-row h4 {
+    margin-right: 12px;
+}
+
+.title-link {
+    color:blue
+}
+
+.main-img {
+    width: 320px
+}
+
+.header-anchors a {
+    margin-right: 20px;
+    /* adjust as needed */
+}

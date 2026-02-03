@@ -1,0 +1,151 @@
+@import url(font-awesome.min.css);
+
+h2, h3, h5 {color: rgb(7, 48, 84)}
+
+.intro-card, .calendar {
+    background-color: rgba(189,
+        181, 213, 0.65);
+    padding-bottom: 0;
+    margin-bottom: -15px;
+}
+
+.projects {
+        background-color: rgba(189,
+                181,
+                213, 0.65);
+    }
+
+body {background-image: url("../static/images/bg1.jpg")}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.icon {
+    text-decoration: none;
+    position: relative;
+    border-bottom: none;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.icon>.label {
+    display: none;
+}
+
+header {
+    background-color: #0a5a6c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header-anchors {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.header-anchors a{
+    color: darkseagreen;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project-area {
+    font-weight: bold;
+}
+
+footer {
+    color: rgba(143, 188, 143, 0.4);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.mini-icons {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav {
+    gap: 20px;
+    display: flex;
+}
+
+h4 {
+    text-align: center;
+}
+
+.materials-section {
+    text-align: center;
+    margin-top: 20px;
+ }
+
+.materials-title {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #591ece;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.mater-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mater-icons a {
+    font-size: 4rem;
+    color: #0a5a6c;
+    text-decoration: none;
+}
+
+.mater-icons a:hover {
+    color: #0657a1;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+.tasks{
+    font-weight: normal;
+    color: greenyellow
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+}

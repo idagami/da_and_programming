@@ -1,0 +1,11 @@
+deal_#,nights,sailing_date,embark_in,disembark_in,cruise_line_ship,ship_rating,brochure,agent_price,saving
+#11800,8,"Apr 18, 2026","Lisbon, Portugal","Barcelona, Spain",Norwegian / Norwegian Dawn,4.5,"$7,602",$949,88%
+#49116,13,"Apr 5, 2026","Tampa, FL","Lisbon, Portugal",Norwegian / Norwegian Dawn,4.5,"$7,580","$1,009",87%
+#10832,13,"Apr 6, 2026","La Romana, Dominican Republic","Paris (Le Havre), France",Norwegian / Norwegian Sky,4,"$7,540","$1,049",86%
+#45737,13,"Apr 17, 2028","Jacksonville, FL","Lisbon, Portugal",Norwegian / Norwegian Dawn,4.5,"$6,362","$1,119",82%
+#25361,13,"Nov 1, 2026","Ravenna, Italy","Philadelphia, PA",Norwegian / Norwegian Pearl,4.5,"$7,222","$1,139",84%
+#33054,9,"Oct 20, 2026","Lisbon, Portugal","Barcelona, Spain",Norwegian / Norwegian Star,4,"$8,252","$1,349",84%
+#33481,10,"Oct 10, 2027","Barcelona, Spain","Barcelona, Spain",Norwegian / Norwegian Dawn,4.5,"$10,432","$1,559",85%
+#33057,11,"Oct 29, 2026","Barcelona, Spain","Lisbon, Portugal",Norwegian / Norwegian Star,4,"$10,022","$1,609",84%
+#12144,11,"Aug 20, 2026","Southampton, England","Barcelona, Spain",Norwegian / Norwegian Sky,4,"$13,122","$1,699",87%
+#35036,11,"Oct 20, 2027","Southampton, England","Lisbon, Portugal",Norwegian / Norwegian Star,4,"$13,002","$1,939",85%

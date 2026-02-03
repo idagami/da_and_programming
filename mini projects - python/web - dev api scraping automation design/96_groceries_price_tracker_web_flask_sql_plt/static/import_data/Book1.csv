@@ -1,0 +1,106 @@
+date,shop,item,descr,category,weight,units,cost,price_kg,price_unit
+2/7/2025,super_dosh,baby wipes,,hygiene chemicals,,5,19.9,,3.98
+2/7/2025,super_dosh,banana,,fruits veggies,,,8.9,8.9,
+2/7/2025,super_dosh,batata,,fruits veggies,,,8.9,8.9,
+2/7/2025,super_dosh,black olives,,cans,,1,15.5,,15.5
+2/7/2025,super_dosh,black olives,,preserves,,,65,65,
+2/7/2025,super_dosh,corn,,fruits veggies,,,9.9,9.9,
+2/7/2025,super_dosh,cottage cheese,,dairy,200,,35.9,179.5,
+2/7/2025,super_dosh,crackers,,grain,1000,,31.9,31.9,
+2/7/2025,super_dosh,cucumbers,,fruits veggies,,,6.9,6.9,
+2/7/2025,super_dosh,eggs,M,dairy,,12,13,,1.08
+2/7/2025,super_dosh,feta cheese,,dairy,200,,30.9,154.5,
+2/7/2025,super_dosh,juice,,drinks,,1,6,,6
+2/7/2025,super_dosh,kabanos,3 each,meat fish,,2,25.9,,12.95
+2/7/2025,super_dosh,lemon,,fruits veggies,,,5.9,5.9,
+2/7/2025,super_dosh,mint fresh,,fruits veggies,,1,3.8,,3.8
+2/7/2025,super_dosh,mushrooms,,cans,,1,5,,5
+2/7/2025,super_dosh,mushrooms fresh,,fruits veggies,,1,18.9,,18.9
+2/7/2025,super_dosh,pesto,box,fruits veggies,,2,18.9,,9.45
+2/7/2025,super_dosh,pickled tomatoes,,preserves,,1,13.9,,13.9
+2/7/2025,super_dosh,potato white,,fruits veggies,,,4.9,4.9,
+2/7/2025,super_dosh,shnitzelonim,bag,meat fish,,2,29.9,,14.95
+2/7/2025,super_dosh,tangerine,,fruits veggies,,,6.9,6.9,
+2/7/2025,super_dosh,toilet wet tissues,,hygiene chemicals,,,12.9,,12.9
+2/7/2025,super_dosh,tomato paste,,preserves,,1,2.9,,2.9
+2/7/2025,super_dosh,tomatoes,,fruits veggies,,,3.9,3.9,
+2/7/2025,super_dosh,tomatoes cherry,,fruits veggies,,,14.9,14.9,
+2/7/2025,super_dosh,vanish,1 box 1.5 kg,hygiene chemicals,1500,,24.9,16.6,
+2/7/2025,super_dosh,vareniki,,grain,,1,39.9,,39.9
+3/13/2025,osher_ad,almond milk,,dairy,1000,,14.7,14.7,
+3/13/2025,osher_ad,black olives,,cans,,,15.7,,15.7
+3/13/2025,osher_ad,bread,,grain,500,,16.9,33.8,
+3/13/2025,osher_ad,broccoli,,fruits veggies,,,3.9,3.9,
+3/13/2025,osher_ad,butter,,dairy,200,,8.9,44.5,
+3/13/2025,osher_ad,cheese yellow,,dairy,1000,,39.9,39.9,
+3/13/2025,osher_ad,conditioner laundry,,hygiene chemicals,,1,9.9,,9.9
+3/13/2025,osher_ad,crackers,,grain,1000,,19.9,19.9,
+3/13/2025,osher_ad,eggs,,dairy,,18,19.5,,1.08
+3/13/2025,osher_ad,feta cheese,,dairy,200,,28.9,144.5,
+3/13/2025,osher_ad,hasa,,fruits veggies,,,11.9,,11.9
+3/13/2025,osher_ad,maadan,,dairy,,1,1.9,,1.9
+3/13/2025,osher_ad,olive oil,,preserves,,1,29.9,,29.9
+3/13/2025,osher_ad,pesto,,preserves,,,14.9,,14.9
+3/13/2025,osher_ad,pizza x3,,dairy,,3,36.9,,12.3
+3/13/2025,osher_ad,sunflower seeds,,snacks,,,29,29,
+3/13/2025,osher_ad,tangerine,,fruits veggies,,,4.9,4.9,
+3/13/2025,osher_ad,tissues,,hygiene chemicals,,,8.9,8.9,
+3/13/2025,osher_ad,toilet wet tissues,,hygiene chemicals,,5,19.9,,3.98
+3/13/2025,osher_ad,walnuts,,snacks,,,49.9,49.9,
+3/13/2025,super_dosh,carrot,,fruits veggies,,,4.9,4.9,
+3/13/2025,super_dosh,cashew salted,,snacks,,,110,110,
+3/13/2025,super_dosh,cinammon buns,,grain,,,12.9,,12.9
+3/13/2025,super_dosh,cottage cheese,,dairy,,200,15.9,79.5,
+3/13/2025,super_dosh,green onion,,fruits veggies,,,4.9,,4.9
+3/13/2025,super_dosh,lemon,,fruits veggies,,,5.9,5.9,
+3/13/2025,super_dosh,mint fresh,,fruits veggies,,,3.8,,3.8
+3/13/2025,super_dosh,peanuts salted,,snacks,,,40,40,
+3/13/2025,super_dosh,pickled tomatoes,,preserves,,,13.9,,13.9
+3/13/2025,super_dosh,potato white,,fruits veggies,,,3.9,3.9,
+3/13/2025,super_dosh,sour cream,,dairy,,150,11.9,79.33,
+3/13/2025,super_dosh,strawberry,,fruits veggies,,,14.9,14.9,
+3/13/2025,super_dosh,tomato paste,,preserves,,,3.5,,3.5
+4/7/2025,osher_ad,banana,,fruits veggies,,,9,9,
+4/7/2025,osher_ad,black olives,,cans,,,15.7,,15.7
+4/7/2025,osher_ad,cheese yellow,,dairy,,,40,40,
+4/7/2025,osher_ad,cinammon buns,,grain,,,10,,10
+4/7/2025,osher_ad,dates,,snacks,,,25,25,
+4/7/2025,osher_ad,eggs,,dairy,,18,19.5,,1.08
+4/7/2025,osher_ad,feta cheese,,dairy,,200,28.5,42.75,
+4/7/2025,osher_ad,frozen fruits,,fruits veggies,,400,18,18,
+4/7/2025,osher_ad,hand soap,,hygiene chemicals,2000,,19,9.5,
+4/7/2025,osher_ad,juice,,drinks,,,5.5,,5.5
+4/7/2025,osher_ad,kabanos,,meat fish,,2,30,,15
+4/7/2025,osher_ad,mushrooms,,cans,,,4.5,,4.5
+4/7/2025,osher_ad,mushrooms fresh,,fruits veggies,,,17.9,,17.9
+4/7/2025,osher_ad,olive oil,,preserves,,,19.9,,19.9
+4/7/2025,osher_ad,paper towels,,hygiene chemicals,,6,24,,4
+4/7/2025,osher_ad,parsley,,fruits veggies,,,8,,8
+4/7/2025,osher_ad,peanuts salted,,snacks,,,38,38,
+4/7/2025,osher_ad,pesto,,preserves,,,15,,15
+4/7/2025,osher_ad,potato white,,fruits veggies,,,8,8,
+4/7/2025,osher_ad,prune,,snacks,,,49,49,
+4/7/2025,osher_ad,sour cherry compote,,preserves,,,10,,10
+4/7/2025,osher_ad,sunflower seeds,,snacks,,,29,29,
+4/7/2025,osher_ad,tissues,,hygiene chemicals,,10,25,2.5,
+4/7/2025,osher_ad,toilet paper,,hygiene chemicals,,,33,,33
+4/7/2025,osher_ad,tomatoes cherry,,fruits veggies,,,12,12,
+4/7/2025,osher_ad,walnuts,,snacks,,,79,79,
+4/7/2025,osher_ad,wine,,drinks,,,35,,35
+4/7/2025,super_dosh,almond milk,,dairy,,,16,,16
+4/7/2025,super_dosh,apple,,fruits veggies,,,8,8,
+4/7/2025,super_dosh,avocado,,fruits veggies,,3,10,,3.33
+4/7/2025,super_dosh,black olives,,preserves,,,65,65,
+4/7/2025,super_dosh,bread,,grain,500,,17,34,
+4/7/2025,super_dosh,green onion,,fruits veggies,,,5,,5
+4/7/2025,super_dosh,hering in oil,,meat fish,,300,30,100,
+4/7/2025,super_dosh,mint fresh,,fruits veggies,,,4,,4
+4/7/2025,super_dosh,pickled tomatoes,,preserves,,,14,,14
+4/7/2025,super_dosh,shnitzelonim,,meat fish,,,20,,20
+4/7/2025,super_dosh,sugar brown,,preserves,,,16,,16
+4/7/2025,super_dosh,tangerine,,fruits veggies,,,8,8,
+4/7/2025,super_dosh,tomato paste,,preserves,,,3,,3
+4/7/2025,super_dosh,toothpaste,,hygiene chemicals,,,7.5,,7.5
+4/7/2025,super_dosh,tortilla,,grain,,,12,,12
+4/7/2025,super_dosh,tuna small rio,,cans,,,10,,10
+4/7/2025,super_dosh,vareniki,,grain,,,25,,25

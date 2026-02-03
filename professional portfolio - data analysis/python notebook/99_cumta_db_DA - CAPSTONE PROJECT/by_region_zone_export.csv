@@ -1,0 +1,120 @@
+﻿region,alert_zone,count
+Center,Ashdod,154
+Center,Beit Shemesh,5
+Center,Center Galilee,333
+Center,Center Negev,27
+Center,Confrontation Line,215
+Center,Dan,1096
+Center,Gaza Containment,1
+Center,HaAmakim,143
+Center,HaShfela,8568
+Center,Hefer,28
+Center,Lakhish,6560
+Center,Menashe,77
+Center,Sharon,7028
+Center,Shfela,25
+Center,Shfelat Yehuda,1753
+Center,Shomron,87
+Center,Southern Shfela,202
+Center,Wadi Ara,10
+Center,West Lakhish,436
+Center,Yarkon,3752
+Center,Yarkon Modi'in,2
+Center,Yehuda,45
+Center,יהוד מונוסון,1
+Center,כרכור,2
+Center,מודיעין מכבים רעות,1
+Center,מיני ישראל,1
+Center,נאות קדומים,1
+Center,שוהם,1
+Haifa,HaAmakim,424
+Haifa,HaCarmel,717
+Haifa,HaMifratz,1321
+Haifa,HaShfela,130
+Haifa,Hof HaCarmel,11
+Haifa,Menashe,312
+Haifa,Pardes Hana,2
+Haifa,Sharon,35
+Haifa,Upper Galilee,143
+Haifa,Wadi Ara,234
+Haifa,Ye'arut HaCarmel (Carmel Forest),1
+Haifa,Yehuda,57
+Jerusalem,Beit Shemesh,5
+Jerusalem,Jerusalem,784
+Jerusalem,Shfelat Yehuda,3129
+Jerusalem,South Golan,22
+North,Beit She'an Valley,727
+North,Bika'a,76
+North,Center Galilee,2315
+North,Center Negev Beer Sheva,1
+North,Confrontation Line,14276
+North,Dead Sea,36
+North,Golan,7
+North,HaAmakim,3482
+North,HaCarmel,624
+North,HaMifratz,281
+North,HaShfela,3
+North,Haifa,2
+North,Hof HaCarmel,11
+North,Kfar Yehoshua Train Station,2
+North,Lev HaChula,7
+North,Lower Galilee,1124
+North,Menashe,1126
+North,Milouot Industrial North,1
+North,North Golan,670
+North,Sharon,60
+North,Shomron,68
+North,South Golan,1175
+North,South Negev,98
+North,Upper Galilee,6722
+North,Wadi Ara,1069
+North,Yarkon,236
+North,Ye'arut HaCarmel (Carmel Forest),3
+North,Yehuda,1
+North,Zefat,21
+North,כפר נחום,2
+North,קריית שמונה,1
+South,Arabah,26
+South,Arava,202
+South,Ashdod,16
+South,Bika'a,28
+South,Center Negev,1778
+South,Center Negev / Gaza Containment,47
+South,Center Negev Beer Sheva,5
+South,Confrontation Line,475
+South,Dead Sea,285
+South,Eilat,105
+South,Gaza Containment,1803
+South,Gaza Envelope,5901
+South,HaAmakim,52
+South,HaShfela,213
+South,Lakhish,3165
+South,Nirim,1
+South,Shfelat Yehuda,816
+South,South Golan,134
+South,South Negev,836
+South,Southern Shfela,63
+South,West Lakhish,1353
+South,West Negev,1375
+South,Yehuda,149
+South,מבטחים עמיעוז ישע,3
+South,מטווח ניר עם,1
+South,שדרות איבים ניר עם,2
+Tel Aviv,Dan,3155
+Tel Aviv,Dan Tel Aviv,4
+Tel Aviv,Sharon,127
+Yosh,Beit She'an Valley,22
+Yosh,Bika'a,189
+Yosh,Dead Sea,102
+Yosh,Gaza Envelope,10
+Yosh,HaAmakim,60
+Yosh,Jerusalem,96
+Yosh,Maale Adumim,6
+Yosh,Nili,1
+Yosh,Samaria,10
+Yosh,Sharon,184
+Yosh,Shfelat Yehuda,146
+Yosh,Shomron,2388
+Yosh,South Negev,63
+Yosh,Yarkon,541
+Yosh,Yehuda,2258

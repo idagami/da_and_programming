@@ -1,0 +1,39 @@
+{% extends "base.html" %} {% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4">My Orders</h2>
+
+  {% if orders %}
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Order ID</th>
+        <th>Date</th>
+        <th>Total</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for order in orders %}
+      <tr>
+        <td>#{{ order.id }}</td>
+        <td>{{ order.date.strftime("%Y-%m-%d") }}</td>
+        <td>₪{{ "%.2f"|format(order.total) }}</td>
+        <td>
+          {% if order.status == "Pending" %}
+          <span>Pending</span>
+          <a
+            href="{{ url_for('create_checkout_session', order_id=order.id) }}"
+            class="btn btn-sm btn-primary ms-2"
+            >Pay</a
+          >
+          {% else %} {{ order.status }} {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>You have no orders yet.</p>
+  {% endif %}
+</div>
+{% endblock %}
