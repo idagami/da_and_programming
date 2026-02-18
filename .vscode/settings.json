@@ -1,0 +1,26 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "35.198.109.135",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "GoIt",
+      "username": "da_one_sigma",
+      "database": "ads_analysis_goit_course",
+      "password": "@m)Z2yd8Uf^$umKy"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "Local",
+      "database": "shprotik",
+      "username": "shprotik",
+      "password": "shprotik"
+    }
+  ]
+}
